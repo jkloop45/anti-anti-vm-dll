@@ -3,7 +3,7 @@ anti anti vm dll, used to hide VMWare characteristics as files, processes, servi
 
 The method used this project is by hooking the relevat functions in OS, I'm making use in "MinHook" native c library which make my life easier a lot.
 
-The current version aim to win7 64 bit.
+The current version aim to win7 32` bit.
 
 One of the main goals is that the dll will be easy to configure, in order to let one to hide specific program.
 
@@ -13,7 +13,7 @@ The way to use the dll is to write its path to AppInit_DLLs registry value, and 
 refrences:
 
 1. AppInit_DLLs:
-https://support.microsoft.com/he-il/kb/197571
+https://msdn.microsoft.com/en-us/library/windows/desktop/dd744762(v=vs.85).aspx
 
 2. anti vm\sandbox techniques:
 https://sentinelone.com/blogs/sfg-furtims-parent/
